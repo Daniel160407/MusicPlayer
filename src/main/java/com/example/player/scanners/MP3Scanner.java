@@ -18,7 +18,7 @@ public class MP3Scanner {
         }
     }
 
-    public List<File> findMP3Files(String directoryPath) {
+    private List<File> findMP3Files(String directoryPath) {
         List<File> mp3Files = new ArrayList<>();
         File directory = new File(directoryPath);
 

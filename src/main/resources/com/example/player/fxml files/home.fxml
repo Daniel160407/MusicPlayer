@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane fx:id="offlineMusicAnchorPane" prefHeight="800.0" prefWidth="500.0" style="-fx-background-color: #101828;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" />
+<AnchorPane prefHeight="800.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.player.controllers.HomeController">
+   <children>
+      <ScrollPane prefHeight="800.0" prefWidth="500.0">
+        <content>
+          <AnchorPane fx:id="mainAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="799.0" prefWidth="483.0" style="-fx-background-color: #101828;" />
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
